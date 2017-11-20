@@ -1,0 +1,495 @@
+html,body {
+  background-color: #f7f7f7;
+}
+.jdm{
+	width: 100%;
+	margin: 0 auto;
+}
+/* 去掉元素手指触摸之后出现的背景颜色 */
+*{
+	-webkit-tap-highlight-color: transparent;
+	-webkit-appearance: none;
+}
+/* 顶部搜索栏 */
+
+.jd-search{
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 40px;
+	background-color: #c91523;
+	z-index: 100;
+}
+.logo {
+	display: block;
+	position: absolute;
+	top: 9px;
+	left: 10px;
+	width: 56px;
+	height: 22px;
+	background-position: 0 -109px;
+	background-image: url("../images/jd-sprites.png");
+	background-size: 200px 200px;
+}
+.jd-search .search{
+	width: 100%;
+	padding-left: 76px;
+	padding-right: 50px;
+	box-sizing: border-box;
+	position: relative;
+}
+.jd-search .search input{
+	width: 100%;
+	height: 30px;
+	line-height: 30px;
+	margin-top: 5px;
+	border-radius: 15px;
+	padding-left: 28px;
+	border: 1px solid #ccc;
+	box-sizing: border-box;
+	font-size: 14px;
+}
+.jd-search .search i{
+	display: block;
+	position: absolute;
+	top: 10px;
+	left: 84px;
+	width: 20px;
+	height: 20px;
+	background-position: -60px -109px;
+	background-image: url("../images/jd-sprites.png");
+	background-size: 200px 200px;
+}
+.jd-search .login{
+	display: block;
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 50px;
+	height: 40px;
+	text-align: center;
+	line-height: 40px;
+	font-size: 14px;
+	color: #fff;
+}
+/* }轮播图 */
+.lbt {
+	width: 100%;
+}
+.lbt a {
+	display: block;
+	width: 100%;
+}
+.lbt a img{
+	width: 100%;
+	vertical-align: middle
+}
+/* 分类模块 */
+.nav{
+	width: 100%;
+	padding-top: 10px;
+	background-color: #fff;
+}
+.nav ul{
+	width: 100%;
+	overflow: hidden;
+}
+.nav li{
+	width: 25%;
+	float: left;
+}
+.nav li a{
+	display: block;
+	width: 100%;
+	text-align: center;	
+}
+.nav li img{
+	width: 40px;
+	height: 40px;
+}
+.nav li span{
+	display: block;
+	margin: 6px 0;
+}
+/* 掌上秒杀 */
+.seckill{
+	width: 100%;
+	background-color: #fff;
+	margin-top: 5px;
+}
+.seckill-t{
+	width: 100%;
+	height: 35px;
+	overflow: hidden;
+}
+.seckill h3{
+	position: relative;
+	padding-left: 40px;
+	padding-right: 10px;
+	float: left;
+	color: #c91523;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 35px;
+	box-sizing: border-box;
+}
+.seckill h3:before{
+	content: "";
+	position: absolute;
+	top: 3px;
+	left: 13px;
+	width: 20px;
+	height: 26px;
+	background-position: -84px -107px;
+	background-image: url("../images/jd-sprites.png");
+	background-size: 200px 200px;
+
+
+}
+.seckill-time{
+	float: left;
+	margin-top: 10px;
+}
+.seckill-time span{
+	display: block;
+	float: left;
+	background-color: #000;
+	font-size: 14px;
+	color: #fff;
+}
+.seckill-time span:nth-child(3n){
+	background-color: #fff;
+	color: #000;
+	margin: 0 2px;
+}
+.seckill-time span:nth-child(3n+1){
+	border-top-left-radius: 3px;
+	border-bottom-left-radius: 3px;
+	padding-left: 2px;
+}
+.seckill-time span:nth-child(3n+2){
+	border-top-right-radius: 3px;
+	border-bottom-right-radius: 3px;
+	padding-right: 2px;
+}
+.seckill h4{
+	float: right;
+	line-height: 35px;
+	margin-right: 20px;
+	font-weight: 400;
+	font-size: 12px;
+	position: relative;
+}
+.seckill h4:after{
+	content: "";
+	position: absolute;
+	top: 10px;
+	left: 53px;
+	width: 7px;
+	height: 12px;
+	background-position: -186px -51px;
+	background-image: url("../images/jd-sprites.png");
+	background-size: 200px 200px;
+}
+.seckill-b{
+	width: 100%;
+	padding: 10px 10px;
+	box-sizing: border-box;
+}
+.seckill-b ul{
+	width: 100%;
+	overflow: hidden;
+}
+.seckill-b ul li{
+	width: 33.33%;
+	padding: 0 10px;
+	float: left;
+	box-sizing: border-box;
+}
+.seckill-b ul li a{
+	display: block;
+	position: relative;
+	width: 100%;
+	text-align: center;
+}
+.seckill-b ul li a img{
+	width: 100%;
+
+	vertical-align: middle;
+}
+.seckill-b ul li a i{
+	display: block;
+	font-size: 10px;
+	color: #fff;
+	position: absolute;
+	border-radius: 50%;
+	padding: 5px;
+	right: 0px;
+	bottom:50px;
+	background-color: orange;
+	box-sizing: border-box;
+}
+.seckill-b ul li a span{
+	margin: 10px;
+	display: block;
+	font-size: 14px;
+	color: #c91523;
+}
+.seckill-b ul li a del{
+	text-decoration: line-through;
+	color: #bbb;
+	font-size: 14px;
+}
+/* 狂撒亿万神券 */
+.banner{
+	width: 100%;
+	background: url("../upload/banner_bg.jpg") no-repeat;
+	background-size: 100% auto;
+	padding-top: 13%;
+	padding-bottom: 2%;
+	box-sizing: border-box;
+}
+.banner ul{
+	width: 100%;
+}
+.banner ul li{
+	width: 100%;
+	overflow: hidden;
+}
+.banner ul li a{
+	display: inline-block;
+	float: left;
+	width: 50%;
+}
+.banner ul li a img{
+	width: 100%;
+	vertical-align: middle;
+}
+/* 热卖排行 */
+.major{
+	width: 100%;
+	background-color: #fff;
+}
+.major ul{
+	width: 100%;
+	padding: 0 10px;
+	box-sizing: border-box;	
+}
+.major ul li{
+	width: 100%;
+	overflow: hidden;
+}
+.major ul li:first-child a{
+	display: block;
+	width: 33.33%;
+	float: left;
+	
+}
+.major ul li:last-child a{
+	display: block;
+	width: 50%;
+	float: left;
+}
+.major ul li a img{
+	width: 100%;
+	vertical-align: middle;
+}
+/* 广告 */
+.advert{
+	width: 100%;
+	padding: 10px;
+	box-sizing: border-box;
+}
+.advert img{
+	width: 100%;
+}
+/* 特色超市 */
+.market{
+	width: 100%;
+	padding: 10px 10px 0 10px;
+	background-color: #fff;
+	box-sizing: border-box;
+}
+h2{
+	font-size: 16px;
+	font-weight: normal;
+	color: #c91523;
+}
+.market ul{
+	width: 100%;
+	overflow: hidden;
+}
+.market ul li{
+	width: 50%;
+	float: left;
+}
+.market ul li a{
+	display: block;
+	width: 100%;
+}
+.market ul li a img{
+	width: 100%;
+	vertical-align: middle;
+}
+/* 主题街 */
+.theme{
+	width: 100%;
+	background-color: #fff;
+}
+.theme h2{
+	padding: 10px;
+}
+.theme-t{
+	width: 100%;
+	overflow: hidden;
+}
+.theme-t a{
+	display: block;
+	float: left;
+	width: 50%;
+}
+.theme-t a img{
+	width: 100%;
+	vertical-align: center;
+}
+.theme-t a:last-child img{
+	width: 50%;
+}
+.theme-b{
+	width: 100%;
+	overflow: hidden;
+}
+.theme-b a{
+	display: block;
+	width: 25%;
+	float: left;
+}
+.theme-b a img{
+	width: 100%;
+	vertical-align: middle;
+}
+/* 品牌推荐 */
+.brand{
+	width: 100%;
+	overflow: hidden;
+}
+.brand a:first-child{
+	display: block;
+	width: 40%;
+	float: left;
+}
+.brand a:last-child{
+	display: block;
+	width: 60%;
+	float: left;
+}
+.brand a:first-child img{
+	width: 100%;
+	vertical-align: middle;
+}
+.brand a:last-child img{
+	width: 50%;
+}
+/* 猜你喜欢 */
+.item{
+	width: 100%;
+	background-color: #fff;
+	padding-bottom:1000px;
+}
+.item-t{
+	width: 100%;
+	overflow: hidden;
+	padding:10px;
+	box-sizing: border-box;
+}
+.item-t h2{
+	float: left;
+	color: #7F7F7F;
+}
+.item-t p{
+	float: right;
+	padding-right: 15px;
+	padding-top:3px; 
+	color: #f15353;
+	box-sizing: border-box;
+	position: relative;
+}
+.item-t p:before{
+	content: "";
+	position: absolute;
+	width: 18px;
+	height: 18px;
+	top: 0px;
+	left: -20px;
+	background-image: url("../images/icon-login.png");
+  	background-size: 18px 18px;
+ 	background-position: center center;
+}
+.item-t p:after{
+	content: "";
+	position: absolute;
+	width: 12px;
+	height: 12px;
+	top: 2px;
+	left: 72px;
+	background: url("../images/icon-right.png") no-repeat;
+  	background-size: 4px 7px;
+ 	background-position: center center;
+}
+.item-b{
+	width: 50%;
+	float: left;
+	padding: 10px;
+	box-sizing: border-box;
+}
+.item-b-t{
+	border-bottom: 1px solid #ccc;
+	display: block;
+	width: 100%;
+	padding-bottom: 5px;
+	box-sizing: border-box;
+
+}
+.item-b-t img{
+	width: 100%;
+	vertical-align: middle;
+}
+.item-b-t p{
+	height: 40px;
+	overflow: hidden;
+	display: -webkit-box;
+   -webkit-box-orient:  vertical;
+   -webkit-line-clamp: 2;
+   font-size: 13px;
+   line-height: 20px;
+}
+.item-b-b{
+	width: 100%;
+	overflow: hidden;
+	margin-top: 10px;
+}
+.item-b-b span{
+	margin-top: 3px;
+	float: left;
+	color: #f15353;
+	font-size: 12px;
+}
+.item-b-b a{
+	display: block;
+	float: right;
+	color: #999;
+	border: 1px solid #999;
+	border-radius: 3px;
+	padding: 2px;
+	box-sizing: border-box;
+}
+
+
+
+
+
+
+
+
+
